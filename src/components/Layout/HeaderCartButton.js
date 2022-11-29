@@ -1,6 +1,6 @@
 import CartIcon from '../Cart/CartIcon'
 import classes from './HeaderCartButton.module.css'
-import {useContext, useEffect, useState} from 'react'
+import React, {useContext, useEffect, useState} from 'react'
 import CartContext from '../../store/cart-context'
 
 
